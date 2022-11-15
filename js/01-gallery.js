@@ -31,7 +31,7 @@ function onClickImg(event) {
   instance.show();
 
   window.addEventListener("keydown", onCloseEscape);
-  function onCloseEsc(e) {
+  function onCloseEscape(e) {
     const isEsKey = e.code === "Escape";
     if (isEscapeKey) {
       instance.close();
